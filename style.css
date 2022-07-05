@@ -16,6 +16,20 @@ ul {
 p{
     line-height: 1.5;
 }
+.navbar a {
+  color: #9eb23b;
+  font-size: 18px;
+  transition: color 0.3;
+}
+.navbar a:hover {
+  color:#545e20 ;
+}
+.c-opa {
+  transition: opacity 0.3;
+}
+.c-opa:hover {
+  opacity: 0.3;
+}
 .container {
   max-width: 1200px;
   /* top, bottom - left, right  */
@@ -197,50 +211,36 @@ height: 200px;
   /* Sobre NOSOTROS*/
   .nosotros__countainer {
     display: grid;
-    justify-content: space-between;
     max-width: 1400px;
     height: 900px;
     margin: 0 auto;
     justify-content: center;
   }
   .cards__grid--nosotros {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 100px;  
+    display: grid;   
   }
-  .card__content div {
-    position: relative;
-    justify-content: space-between;
-}
 .card__nosotros {
-    width: 500px;
+    width: 1200px;
     height: 800px;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     display: grid;
   }
-  .card__nosotros--2 {
-    transform: translateY(300px);
-    width: 500px;
-    height: 500px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    display: grid;
-  }
+.card__nosotros--descripcion {
+  display: grid;
+}
 .card__nosotros--imagen {
     position: relative;
   }  
   .card__nosotros--imagen img {
-    width: 100%;
+    width: 20vw;
     border-radius: 8px;
-    margin-bottom: 20px;
   }  
   .card__title {
-    margin-bottom: 20px;
     align-items: flex-start;
-  }    
+  }
+  .card
 
 /* CONTACTO*/
 .contact__countainer {

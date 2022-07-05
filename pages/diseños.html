@@ -4,102 +4,173 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3bd0e8df69.js" crossorigin="anonymous"></script>
         <title>Vide Verde Paisaje</title>
         <link rel="shortcut icon" href="../images/icon_head.png">
         <link rel="stylesheet" href="../style.css">
     </head>
 
 <body>
-
     <!---Encabezado de la pagina--->
-    <header class="header">
-     
+    <header>     
         <!--Menú bar-->
-       <div class="header__content">
-   
-           <a href="../index.html"> 
-               <img src="../images/logo_empresa.png" alt="Logo de la empresa" width="100px" height="65px" />
-           </a>
-   
-           <nav>
-               <ul class="content__navbar">
-                   <li> <a href="../index.html">INICIO</a> </li>
-                   <li> <a href="../pages/diseños.html"> DISEÑOS</a></li>
-                   <li><a href="../pages/nosotros.html"> NOSOTROS</a></li>
-                   <li><a href="../pages/trabajos.html"> TRABAJOS</a></li>
-                   <li><a href="../pages/contact.html"> CONTACTO</a></li>    
-               </ul>
-           </nav>
-   
-       </div>
-   
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="../index.html"> <img src="../images/logo_empresa.png" alt="Logo de la empresa" width="100px" height="65px" /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/diseños.html">Diseños</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/trabajos.html">Trabajos</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact.html">Contacto</a>
+                  </li>             
+                </ul>
+              </div>
+            </div>
+          </nav>   
     </header>
 
 <!---Cuerpo de la pagina--->
  <main>
-    <section class="desing__countainer">
-        <h2 class="desing__title">DISEÑOS</h2>
-         <div class="cards__grid">
-
+   <!-- Menú de imagenes -->  
+     <section class="container mt-5">
+      <h2>Diseños</h2>
+        <div class="row g-5 text-center ">
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <article class="card ">
+                    <a href="..."> <img src="../images/diseño_3.jpg" class="card-img-top mb-3" alt="..."></a>
+                    <h5 class="card-title">Diseño de Proyecto <br> "Villa Elisa"</h5>
+                </article>                  
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <article class="card">
+                    <a href="..."> <img src="../images/diseño_9.jpg" class="card-img-top mb-3" alt="..."></a>
+                    <h5 class="card-title">Diseño Proyecto <br> "Berisso"</h5>                               
+                </article>  
+            </div>                     
+           <div  class="col-lg-3 col-md-6 col-xs-12">
             <article class="card">
-              <div class="card__header">
-                    <img src="../images/diseño_3.jpg" alt="Diseño de proyecto Vecchio" />
+                <a href="..."> <img src="../images/diseño_6.jpg" class="card-img-top mb-3" alt="..."></a>
+                <h5 class="card-title">Diseño Proyecto <br> "La Hermosura"</h5>
+                </article> 
+           </div>
+           <div class="col-lg-3 col-md-6 col-xs-12">
+            <article class="card">
+                <a href="..."> <img src="../images/boton_diseños_index.jpg" class="card-img-top mb-3" alt="..."></a>
+                <h5 class="card-title">Diseño Proyecto <br> "Campos de Roca 2"</h5>
+                </article> 
+           </div>
+           <div class="row g-5 text-center ">
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <article class="card ">
+                    <a href="..."> <img src="../images/diseño_7.jpg" class="card-img-top mb-3" alt="..."></a>
+                    <h5 class="card-title">Diseño de Proyecto <br> "San Carlos"</h5>
+                </article>                  
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <article class="card">
+                    <a href="..."> <img src="../images/diseño_1.jpg" class="card-img-top mb-3" alt="..."></a>
+                    <h5 class="card-title">Diseño Proyecto <br> "Arana"</h5>                               
+                </article>  
+            </div>                     
+           <div  class="col-lg-3 col-md-6 col-xs-12">
+            <article class="card">
+              <a href="..."><img src="../images/diseño_8.jpg"" class="card-img-top mb-3" alt="..."></a>
+                <h5 class="card-title">Proyecto <br> "Gonnet"</h5>
+                </article> 
+           </div>
+           <div class="col-lg-3 col-md-6 col-xs-12">
+            <article class="card">
+                <a href="..."> <img src="../images/diseño_10.jpg" class="card-img-top mb-3" alt="..."></a>
+                <h5 class="card-title">Proyecto <br> "Aras del sur"</h5>
+                </article> 
+           </div>
+     </section>
+   </main>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted mt-5">
+  <!-- Sección: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+      <span>Seguinos en nuestras redes:</span>
+    </div>    
+    <div>
+      <a href="https://www.facebook.com/profile.php?id=100008539563621" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+           
+      <a href="https://www.instagram.com/vidaverde.paisaje/" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/542215959451" class="me-4 text-reset">
+        <i class="fab fa-whatsapp"></i>
+      </a>      
+    </div>
+   </section>
+  
+  <!-- Sección: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+       <div class="row mt-3">
+             <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                     Accesos utiles
+                  </h6>
+                 <p>
+                     <a href="../pages/diseños.html" class="text-reset">Diseños</a>
+                   </p>
+                 <p>
+                     <a href="../pages/nosotros.html" class="text-reset">Nosotros</a>
+                  </p>
+                 <p>
+                     <a href="../pages/trabajos.html" class="text-reset">Trabajos</a>
+                 </p>
+                <p>
+                    <a href="../pages/contact.html" class="text-reset">Contacto</a>
+                </p>
              </div>
-            <h3 class="card__title">Diseño de proyecto 
-                <br>
-                "Edificio Vecchio"</h3>
-            <a class="card__link" href="">Ver más</a>
-             </article>
-
-             <article class="card">
-                <div class="card__header">
-                    <img src="../images/diseño_1.jpg" alt="Diseño de proyecto Berisso" />
-                 </div>
-            <h3 class="card__title">Diseño Proyecto
-                <br>
-                "Berisso"</h3>
-            <a class="card__link" href="">Ver más</a>
-            </article>
-
-            <article class="card">
-                <div class="card__header">
-                     <img src="../images/diseño_6.jpg" alt="Diseño de proyecto La Nueva Hermosura" />
-                 </div>
-            <h3 class="card__title">Diseño Proyecto 
-                <br>
-                "La Nueva Hermosura"</h3>
-            <a class="card__link" href="">Ver más</a>
-            </article>
-
-            <article class="card">
-                <div class="card__header">
-                     <img src="../images/boton_diseños_index.jpg" alt="Diseño de proyecto Campos Roca 2" />
-                 </div>
-            <h3 class="card__title">Diseño Proyecto 
-                <br>
-                "Campos de Roca 2"</h3>
-            <a class="card__link" href="">Ver más</a>
-            </article>
-          
-        </div>       
-      </section>
-</main>
-
-<!---Pie de pagina--->
-<footer class="footer">    
-    <Section class="footer__content">    
-        <!--Menú footer-->
-        <div class="footer__icons">
-           <a href="https://www.facebook.com/profile.php?id=100008539563621"><i class="fa-brands fa-facebook"></i></a>
-           <a href="https://www.instagram.com/vidaverde.paisaje/"><i class="fa-brands fa-instagram"></i></a>
-           <i class="fa-brands fa-whatsapp"></i>
+       
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contacto
+          </h6>
+          <p><i class="fas fa-home me-3"></i> La Plata, Bs As, Argentina</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            vidaverdepaisaje@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 54 221 5959 451</p>
+          <p><i class="fab fa-whatsapp me-3"></i> + 54 221 5627 289</p>
         </div>
-       <h5>Vida Verde Diseño de Paisajes y Asoc. © 2022 Todos los derechos reservados.</h5>
-    </Section>     
-</footer>
-    
-</footer>
-
+       </div>
+    </div>
+  </section>
+   <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(14, 43, 21, 0.5);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="">vidaverdepaisaje.com.ar</a>
+  </div>
+  </footer>
 </body>
 
 </html>
